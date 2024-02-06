@@ -305,7 +305,7 @@ main{
 }
 
 #card1 {
-    background-image: url(./assets/card1.avif);
+    background-image: url(assets/card1.avif);
     background-size: cover;
 }
 
@@ -315,7 +315,7 @@ main{
 }
 #card3 {
     background-size: cover;
-    background-image: url(./assets/card3.avif);
+    background-image: url(assets/card3.avif);
 }
 
 .cards .cards-in:hover .overlay{

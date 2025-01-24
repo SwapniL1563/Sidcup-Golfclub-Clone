@@ -215,7 +215,7 @@ main{
     margin-top: 80px;
     margin-bottom: 40px;
     height: 45vh;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -426,6 +426,7 @@ main{
 
     .page1 p {
         font-size: 0.8rem;
+        width: 90%;
     }
 
     .scroller-inside h4{
@@ -435,7 +436,8 @@ main{
 
     .scroller{
         margin-bottom: 20px;
-        width: 100%;
+        /* width: 100%; */
+        display: none;
     }
 
     .page2{
@@ -445,16 +447,24 @@ main{
 
     #page2-right2{
         display: none;
+        
     }
 
     #page2-right1{
         display: block;
+        width: 40%;
+        height: 150px;
     }
 
     .box1{
         display: flex;
-        gap: 20px;
-        justify-content: space-evenly;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .box1 img{
+        width: 40%;
+        height: 150px;
     }
 
     .about-us img {
@@ -462,7 +472,7 @@ main{
     }
     
     .about-us{
-        margin-top: 300px;
+        margin-top: 0px;
         margin-bottom: 200px;
         height: 400px;
         flex-direction: column;
@@ -493,9 +503,10 @@ main{
     }
 
     .cards {
+        /* height: 10vh; */
         /* margin-top: 00px; */
         /* flex-direction: column; */
-        margin-top:200px ;
+        margin-top:450px ;
         margin-bottom:550px ;
     }
 
